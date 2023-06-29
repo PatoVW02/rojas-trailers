@@ -32,7 +32,7 @@ const TeamArea = () => {
         <>
             <section id="team_area">
                 <div className="container">
-                    <SectionHeading heading="Nuestro Equipo" para="Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet."/>
+                    <SectionHeading heading="Nuestra Oficina" para="Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet."/>
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div className="team-slider">

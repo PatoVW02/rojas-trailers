@@ -9,35 +9,43 @@ import ContactMap from '../Contact/ContactMap'
 //ContactArea Area
 const ContactDetails = () => {
     return (
-        <>
-            <section id="contact_area_main">
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="section_heading_center">
-                                <h2>Información de Contacto</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div className="contact_form_info_area">
-                        <div className="row">
-                            <div className="col-lg-6">
-                                <div className="contact_form_main">
-                                    <ContactForm/>
-                                </div>
-                            </div>
-                            <div className="col-lg-6">
-                                <ContactInfo/>
-                            </div>
-                        </div>
-                    </div>
+      <>
+        <section id="">
+          <br />
+          <div className="">
+            <ContactMap />
+          </div>
+          <div className="container">
+            <div className="row">
+              <div className="col-lg-12">
+                <div className="section_heading_center">
+                  <h2>Información de Contacto</h2>
                 </div>
-                <div className="map_area">
-                    <ContactMap/>
+              </div>
+            </div>
+            <div className="contact_form_info_area">
+              <div className="row">
+                <div className="col-lg-12">
+                  <div className="contact_form_main">
+                    <ContactForm />
+                  </div>
                 </div>
-            </section>
-        </>
-    )
+              </div>
+              <br />
+              <div className="row">
+                <div className="col-lg-6">
+                  <ContactInfo />
+                </div>
+                <div className="col-lg-6">
+                  <ContactInfo />
+                </div>
+              </div>
+            </div>
+            <br />
+          </div>
+        </section>
+      </>
+    );
 }
 
 export default ContactDetails

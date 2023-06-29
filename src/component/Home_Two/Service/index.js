@@ -27,28 +27,116 @@ const ServiceHomeTwo = () => {
         },
     }
     return (
-        <>
-            <section id="home_two_service">
-                <div className="container">
-                    <SectionHeading heading="Nuestra Misión" para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."/> 
-                    <div className="row">
-                        <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                            <div className="service_slider_home_two">
-                                <OwlCarousel className="owl-theme" responsive={responsive} autoplay={true}
-                                             autoplayHoverPause={true} autoplayTimeout={2500}
-                                             loop={true} nav={false} dots={true} margin={30}>
-                                    {ServiceData.map((data, index) => (
-                                        <ServiceCard img={data.img} heading={data.heading} para={data.para}
-                                                     button={data.button} key={index}/>
-                                    ))}
-                                </OwlCarousel>
-                            </div>
-                        </div>
-                    </div>
+      <>
+        <section id="home_two_service">
+          <div className="container">
+            <SectionHeading
+              heading="Nuestra Misión"
+              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div className="service_slider_home_two">
+                  <OwlCarousel
+                    className="owl-theme"
+                    responsive={responsive}
+                    autoplay={true}
+                    autoplayHoverPause={true}
+                    autoplayTimeout={2500}
+                    loop={true}
+                    nav={false}
+                    dots={true}
+                    margin={30}
+                  >
+                    {ServiceData.map((data, index) => (
+                      <ServiceCard
+                        img={data.img}
+                        heading={data.heading}
+                        para={data.para}
+                        button={data.button}
+                        key={index}
+                      />
+                    ))}
+                  </OwlCarousel>
                 </div>
-            </section>
-        </>
-    )
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="home_two_service">
+          <div className="container">
+            <SectionHeading
+              heading="Nuestra Visión"
+              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div className="service_slider_home_two">
+                  <OwlCarousel
+                    className="owl-theme"
+                    responsive={responsive}
+                    autoplay={true}
+                    autoplayHoverPause={true}
+                    autoplayTimeout={2500}
+                    loop={true}
+                    nav={false}
+                    dots={true}
+                    margin={30}
+                  >
+                    {ServiceData.map((data, index) => (
+                      <ServiceCard
+                        img={data.img}
+                        heading={data.heading}
+                        para={data.para}
+                        button={data.button}
+                        key={index}
+                      />
+                    ))}
+                  </OwlCarousel>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section id="home_two_service">
+          <div className="container">
+            <SectionHeading
+              heading="Nuestros Valores"
+              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+            />
+            <div className="row">
+              <div className="col-lg-12 col-md-12 col-sm-12 col-12">
+                <div className="service_slider_home_two">
+                  <OwlCarousel
+                    className="owl-theme"
+                    responsive={responsive}
+                    autoplay={true}
+                    autoplayHoverPause={true}
+                    autoplayTimeout={2500}
+                    loop={true}
+                    nav={false}
+                    dots={true}
+                    margin={30}
+                  >
+                    {ServiceData.map((data, index) => (
+                      <ServiceCard
+                        img={data.img}
+                        heading={data.heading}
+                        para={data.para}
+                        button={data.button}
+                        key={index}
+                      />
+                    ))}
+                  </OwlCarousel>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </>
+    );
 }
 
 export default ServiceHomeTwo

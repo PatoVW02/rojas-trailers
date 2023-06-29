@@ -12,7 +12,7 @@ This files table contents are outlined below>>>>>
 *******************************************
 
 ** - Default CSS
-** - Button Area CSS 
+** - Button Area CSS
 ** - Home Page 01
 ** - Home Page 02
 ** - Service
@@ -21,7 +21,7 @@ This files table contents are outlined below>>>>>
 ** - Blog Grid
 ** - Blog With Sidebar
 ** - Blog Single
-** - Team 
+** - Team
 ** - Testimonial
 ** - Gallery
 ** - Faqs
@@ -377,7 +377,7 @@ Top Heder
 }
 
 .top-header {
-    background: var(--heading-color);
+    background: #921d1d;
     padding: 10px 0;
 }
 
@@ -1769,7 +1769,7 @@ Search Overlay CSS
 }
 
 .our_advantages_inner {
-    background-color: var(--heading-color);
+    background-color: #921d1d;
     padding: 60px 60px;
     margin-bottom: 65px;
 }
@@ -2047,9 +2047,6 @@ Search Overlay CSS
 #request_quote_form_area{
     padding: 120px 0;
 }
-#request_form {
-
-}
 #request_form .form-group{
     margin-bottom: 30px;
 }
@@ -2231,7 +2228,7 @@ Search Overlay CSS
 
 /* --Footer Area Start-- */
 #footer_area {
-    background-color: #002346;
+    background-color: #921d1d;
     padding: 120px 0;
 }
 
@@ -2316,7 +2313,7 @@ Search Overlay CSS
 /* --Footer Area End-- */
 
 /* =============================
-      Home Page Two Start 
+      Home Page Two Start
 ============================== */
 
 /* Banner Area Start */
@@ -2686,12 +2683,12 @@ Search Overlay CSS
 /* -- Testimonial Area End -- */
 
 /* =============================
-      Home Page Two End 
+      Home Page Two End
 ============================== */
 
 
 /* =============================
-     Services Page Start 
+     Services Page Start
 ============================== */
 
 /* -- Services Page Area Start -- */
@@ -2791,7 +2788,7 @@ Search Overlay CSS
 
 /* --Partner Area End-- */
 /* =============================
-     Services Page End 
+     Services Page End
 ============================== */
 
 /* =============================

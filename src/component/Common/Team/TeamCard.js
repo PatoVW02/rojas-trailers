@@ -8,11 +8,11 @@ const TeamCard = props => {
                     <img src={props.img} className="img-responsive" alt="img_team"/>
                     <div className="team_text">
                         <p>{props.para}</p>
-                        <ul>
+                        {/* <ul>
                             <li><a href="#!"><i className="fab fa-facebook-f fa-2x"></i></a></li>
                             <li><a href="#!"><i className="fab fa-twitter fa-2x"></i></a></li>
                             <li><a href="#!"><i className="fab fa-linkedin fa-2x"></i></a></li>
-                        </ul>
+                        </ul> */}
                     </div>
                 </div>
                 <div className="team_name">

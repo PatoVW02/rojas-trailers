@@ -4,8 +4,10 @@ import FormInput from '../Common/FormInput'
 // ContactForm Area
 const ContactForm = () => {
     return (
-        <> 
+        <>
             <form action="#!">
+                <h3>Cotización</h3>
+                <br />
                 <div className="row">
                     <div className="col-lg-12">
                         <FormInput

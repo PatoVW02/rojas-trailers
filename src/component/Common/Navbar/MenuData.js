@@ -1,7 +1,7 @@
 export const MenuData = [
     {
         name: "Inicio",
-        href: "/", 
+        href: "/",
         has_children: false,
     },
     {
@@ -10,18 +10,18 @@ export const MenuData = [
         has_children: false,
     },
     {
-        name: "Serivicios",
+        name: "Servicios",
         href: "#!",
         has_children: true,
         children: [
             {
-                name: "Servicios",
+                name: "Entrega y Distribución",
                 href: "/service",
                 has_children: false,
             },
             {
-                name: "Detalles",
-                href: "/service_details",
+                name: "Galería",
+                href: "/gallery",
                 has_children: false,
             }
         ]

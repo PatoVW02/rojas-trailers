@@ -6,7 +6,7 @@ import ServiceDetailsMain from '../component/ServiceDetails'
 const ServiceDetails = () => {
     return (
         <>
-            <CommonBanner heading="Detalles de Servicios" page="Detalles de Servicios"/>
+            <CommonBanner heading="Galería" page="Galería"/>
             <ServiceDetailsMain/>
             {/* <OurPartner/> */}
         </>

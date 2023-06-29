@@ -33,12 +33,12 @@ const Footer = () => {
                                 <img src={logo} alt="logo_img"/>
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Expedita eligendi aperiam harum eaque, dicta facere iste exercitationem</p>
-                                <div className="footer_social_icon">
+                                {/* <div className="footer_social_icon">
                                     <a href="#!"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#!"><i className="fab fa-twitter"></i></a>
                                     <a href="#!"><i className="fab fa-linkedin-in"></i></a>
                                     <a href="#!"><i className="fab fa-instagram"></i></a>
-                                </div>
+                                </div> */}
                             </div>
                         </div>
                         <div className="col-lg-2 col-md-6 col-sm-12 col-12">
@@ -72,9 +72,9 @@ const Footer = () => {
                             </div>
                         </div>
                     </div>
-                </div> 
+                </div>
             </footer>
-            
+
         </>
     )
 }

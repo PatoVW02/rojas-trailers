@@ -7,37 +7,37 @@ export const TeamData = [
     {
         img: img1,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 1",
+        name: "Foto 1",
         des: "Posición"
     },
     {
         img: img2,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 2",
+        name: "Foto 2",
         des: "Posición"
     },
     {
         img: img3,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 3",
+        name: "Foto 3",
         des: "Posición"
     },
     {
         img: img4,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 4",
+        name: "Foto 4",
         des: "Posición"
     },
     {
         img: img1,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 5",
+        name: "Foto 5",
         des: "Posición"
     },
     {
         img: img2,
         para: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae asperiores mollitia.",
-        name: "Persona 6",
+        name: "Foto 6",
         des: "Posición"
     }
 ]
