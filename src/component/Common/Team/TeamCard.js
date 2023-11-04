@@ -5,7 +5,7 @@ const TeamCard = props => {
         <>
             <div className="team-member">
                 <div className="team_inner">
-                    <img src={props.img} className="img-responsive" alt="img_team"/>
+                    <img src={props.img} className="img-responsive" alt="img_team" />
                     <div className="team_text">
                         <p>{props.para}</p>
                         {/* <ul>

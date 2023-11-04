@@ -45,7 +45,7 @@ const Navbar = () => {
     }
 
 
- 
+
  return (
   <>
 <header className="header-area">
@@ -55,7 +55,7 @@ const Navbar = () => {
             <div className="container">
                 <nav className="navbar navbar-expand-md navbar-light">
                   <Link className="navbar-brand" to="/">
-                      <img src={logo} alt="logo" />
+                      <img src={logo} alt="logo" style={{maxWidth: '5rem'}} />
                   </Link>
 
                     <div className="mean-menu" id="navbarSupportedContent">

@@ -23,7 +23,7 @@ const ServiceHomeTwo = () => {
             items: 2,
         },
         1200: {
-            items: 3,
+            items: 2,
         },
     }
     return (
@@ -36,16 +36,18 @@ const ServiceHomeTwo = () => {
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <div className="service_slider_home_two">
+                <div
+                  className="service_slider_home_two"
+                  style={{ textAlign: "center" }}
+                >
                   <OwlCarousel
                     className="owl-theme"
                     responsive={responsive}
                     autoplay={true}
                     autoplayHoverPause={true}
                     autoplayTimeout={2500}
-                    loop={true}
+                    loop={false}
                     nav={false}
-                    dots={true}
                     margin={30}
                   >
                     {ServiceData.map((data, index) => (
@@ -72,16 +74,18 @@ const ServiceHomeTwo = () => {
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <div className="service_slider_home_two">
+                <div
+                  className="service_slider_home_two"
+                  style={{ textAlign: "center" }}
+                >
                   <OwlCarousel
                     className="owl-theme"
                     responsive={responsive}
                     autoplay={true}
                     autoplayHoverPause={true}
                     autoplayTimeout={2500}
-                    loop={true}
+                    loop={false}
                     nav={false}
-                    dots={true}
                     margin={30}
                   >
                     {ServiceData.map((data, index) => (
@@ -108,16 +112,18 @@ const ServiceHomeTwo = () => {
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
-                <div className="service_slider_home_two">
+                <div
+                  className="service_slider_home_two"
+                  style={{ textAlign: "center" }}
+                >
                   <OwlCarousel
                     className="owl-theme"
                     responsive={responsive}
                     autoplay={true}
                     autoplayHoverPause={true}
                     autoplayTimeout={2500}
-                    loop={true}
+                    loop={false}
                     nav={false}
-                    dots={true}
                     margin={30}
                   >
                     {ServiceData.map((data, index) => (

@@ -1,7 +1,7 @@
 import React from 'react'
 import {Link} from 'react-router-dom';
 // Import Logo Import
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/logo2.png'
 
 const FooterItems = [
     {
@@ -30,7 +30,7 @@ const Footer = () => {
                     <div className="row">
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="footer_wedget">
-                                <img src={logo} alt="logo_img"/>
+                                <img src={logo} alt="logo_img" style={{maxWidth: '6rem'}} />
                                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
                                     Expedita eligendi aperiam harum eaque, dicta facere iste exercitationem</p>
                                 {/* <div className="footer_social_icon">
