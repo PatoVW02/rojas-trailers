@@ -32,7 +32,7 @@ const TeamArea = () => {
         <>
             <section id="team_area">
                 <div className="container">
-                    <SectionHeading heading="Nuestra Oficina" para="Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectet, lorem ipsum dolor sit amet."/>
+                    <SectionHeading heading="Nuestra Oficina" para="Nuestra oficina está diseñada para ofrecer un ambiente eficiente y acogedor tanto para nuestros empleados como para nuestros clientes. Nuestro equipo de trabajo está compuesto por profesionales dedicados que se esfuerzan por proporcionar el mejor servicio posible. Ven a visitarnos y descubre cómo manejamos cada detalle con precisión y dedicación, asegurando que su carga esté en las mejores manos.."/>
                     <div className="row">
                         <div className="col-lg-12 col-md-12 col-sm-12 col-12">
                             <div className="team-slider">

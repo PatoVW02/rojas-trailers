@@ -42,13 +42,11 @@ const HomeBanner = () => {
                       <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                         <div className="banner-text">
                           <h1>
-                            Envio de <br />
-                            Paquetes
+                            Profesionalismo en <br />
+                            Movimiento
                           </h1>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua quis ipsum suspendisse.
+                            Nuestro equipo capacitado asegura un manejo experto de su mercancía.
                           </p>
                           {/* <Link className="btn btn-theme" to="/request_quote">Servicios</Link> */}
                           <Link className="btn btn-theme" to="/contact">
@@ -67,13 +65,11 @@ const HomeBanner = () => {
                       <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                         <div className="banner-text">
                           <h1>
-                            Envio de <br />
-                            Paquetes
+                            Preparados para <br />
+                            Cualquier Carga
                           </h1>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua quis ipsum suspendisse.
+                            Equipados para transportar todo tipo de mercancías de manera eficiente.
                           </p>
                           {/* <Link className="btn btn-theme" to="/request_quote">Servicios</Link> */}
                           <Link className="btn btn-theme" to="/contact">
@@ -92,15 +88,12 @@ const HomeBanner = () => {
                       <div className="col-lg-8 col-md-12 col-sm-12 col-12">
                         <div className="banner-text">
                           <h1>
-                            Envio de <br />
-                            Paquetes
+                            Transporte <br />
+                            Confiable
                           </h1>
                           <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing
-                            elit, sed do eiusmod tempor incididunt ut labore et
-                            dolore magna aliqua quis ipsum suspendisse.
+                            Garantizamos que su carga llegue a su destino de manera segura y puntual.
                           </p>
-                          {/* <Link className="btn btn-theme" to="/request_quote">Servicios</Link> */}
                           <Link className="btn btn-theme" to="/contact">
                             Contactanos
                           </Link>

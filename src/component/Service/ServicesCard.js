@@ -11,7 +11,7 @@ const ServicesCard = () => {
         <div className="container">
           <SectionHeading
             heading="Entrega y Distribución"
-            para="Lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consectet lorem ipsum dolor sit amet"
+            para="Ofrecemos soluciones integrales de entrega y distribución para asegurar que su carga sea entregada con la máxima eficiencia. Nos encargamos de todo el proceso logístico, desde la recogida de mercancías hasta su distribución final, garantizando puntualidad y seguridad en cada paso."
           />
           <div className="service_wrapper_top">
             <div className="row">
@@ -23,16 +23,10 @@ const ServicesCard = () => {
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about_content">
                   <div className="heading-left-border">
-                    <h2>Servicio 1</h2>
+                    <h2>Transporte de Carga Completa</h2>
                   </div>
                   <p>
-                    Lorem Ipsum is simply dummy text lorem, fordating lorem
-                    ipsum dolor sit amet, consectetur adipiscing lorem ipsum
-                    dolor. Lorem Ipsum is simply dummy text lorem, fordating
-                    lorem ipsum dolor sit amet, consectetur adipiscing lorem
-                    ipsum dolor. Lorem Ipsum is simply dummy text lorem,
-                    fordating lorem ipsum dolor sit amet, consectetur adipiscing
-                    lorem ipsum dolor. - PH
+                    Nos especializamos en el transporte de carga completa, ofreciendo un servicio directo y sin paradas para asegurar que su mercancía llegue rápidamente a su destino. Ideal para envíos grandes y urgentes.
                   </p>
                 </div>
               </div>
@@ -45,16 +39,10 @@ const ServicesCard = () => {
               <div className="col-lg-6 col-md-12 col-sm-12 col-12">
                 <div className="about_content">
                   <div className="heading-left-border">
-                    <h2>Servicio 2</h2>
+                    <h2>Transporte de Carga Consolidada</h2>
                   </div>
                   <p>
-                    Lorem Ipsum is simply dummy text lorem, fordating lorem
-                    ipsum dolor sit amet, consectetur adipiscing lorem ipsum
-                    dolor. Lorem Ipsum is simply dummy text lorem, fordating
-                    lorem ipsum dolor sit amet, consectetur adipiscing lorem
-                    ipsum dolor. Lorem Ipsum is simply dummy text lorem,
-                    fordating lorem ipsum dolor sit amet, consectetur adipiscing
-                    lorem ipsum dolor. - PH
+                    Ofrecemos transporte de carga consolidada, agrupando múltiples envíos en un solo tráiler para optimizar costos y tiempos de entrega. Perfecto para envíos de menor volumen que requieren eficiencia y seguridad.
                   </p>
                 </div>
               </div>

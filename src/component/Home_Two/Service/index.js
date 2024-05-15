@@ -32,7 +32,7 @@ const ServiceHomeTwo = () => {
           <div className="container">
             <SectionHeading
               heading="Nuestra Misión"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              para="Nuestra misión es proporcionar a nuestros clientes soluciones de transporte confiables y seguras, asegurando que cada carga llegue a su destino de manera eficiente y a tiempo."
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -70,7 +70,7 @@ const ServiceHomeTwo = () => {
           <div className="container">
             <SectionHeading
               heading="Nuestra Visión"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              para="Nuestra visión es ser la empresa líder en la industria de transporte, reconocida por nuestro compromiso con la calidad, la innovación y la satisfacción del cliente."
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">
@@ -108,7 +108,7 @@ const ServiceHomeTwo = () => {
           <div className="container">
             <SectionHeading
               heading="Nuestros Valores"
-              para="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+              para="Nos guiamos por la integridad, actuando con honestidad y transparencia. Nos comprometemos a cumplir nuestras promesas, siempre buscando la innovación para mejorar nuestros servicios. Asumimos la responsabilidad de nuestras acciones, asegurando alta calidad y confiabilidad. Fomentamos el trabajo en equipo para lograr el éxito de nuestros clientes."
             />
             <div className="row">
               <div className="col-lg-12 col-md-12 col-sm-12 col-12">

@@ -15,7 +15,7 @@ const MapArea = () => {
                         </div>
                         <div className="col-lg-5 col-md-12 col-sm-12 col-12">
                             <div className="maps-right-side-text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipis, lorem ipsum dolor sit amet, consectetur adipis lorem ipsum dolor sit amet. </p>
+                                <p>Confíe en nosotros para el transporte de su carga. Ofrecemos soluciones personalizadas que se ajustan a sus necesidades específicas, con tarifas competitivas y un servicio excepcional. </p>
                             </div>
                         </div>
                     </div>

@@ -40,8 +40,8 @@ const HomeAbout = () => {
                                 <div className="heading-left-border">
                                     <h2>¿Por qué Elegirnos?</h2>
                                 </div>
-                                <h3>Lorem Ipsum - PH</h3>
-                                <p>Lorem Ipsum is simply dummy text lorem, fordating lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor. Lorem Ipsum is simply dummy text lorem, fordating lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor. Lorem Ipsum is simply dummy text lorem, fordating lorem ipsum dolor sit amet, consectetur adipiscing lorem ipsum dolor. - PH</p>
+                                <h3>Rojas Trailers</h3>
+                                <p>Elegirnos significa optar por un servicio de transporte que prioriza la seguridad, la puntualidad y la eficiencia. Nos destacamos por nuestra dedicación al cliente y nuestra capacidad para adaptarnos a sus necesidades específicas.</p>
                                 <div className="about_sign_arae">
                                     <div className="distaion_area">
                                         <h5>Nombre Persona - PH</h5>

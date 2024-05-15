@@ -31,8 +31,7 @@ const Footer = () => {
                         <div className="col-lg-4 col-md-12 col-sm-12 col-12">
                             <div className="footer_wedget">
                                 <img src={logo} alt="logo_img" style={{maxWidth: '6rem'}} />
-                                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                                    Expedita eligendi aperiam harum eaque, dicta facere iste exercitationem</p>
+                                <p>Ofrecemos soluciones de transporte terrestre, garantizando puntualidad y seguridad en cada envío.</p>
                                 {/* <div className="footer_social_icon">
                                     <a href="#!"><i className="fab fa-facebook-f"></i></a>
                                     <a href="#!"><i className="fab fa-twitter"></i></a>

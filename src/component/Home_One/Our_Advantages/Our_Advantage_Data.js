@@ -6,18 +6,18 @@ export const OurAdventagesData = [
     [
         {
             img: img1,
-            heading: "Facilidad",
-            para: "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om"
+            heading: "Seguridad",
+            para: "Altos estándares, tecnología avanzada y protocolos estrictos para su carga."
         },
         {
             img: img2,
-            heading: "Satisfacción",
-            para: "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om"
+            heading: "Atención al Cliente",
+            para: "Disponible 24/7, servicio personalizado y resolución rápida de problemas."
         },
         {
             img: img3,
-            heading: "Sin Preocupaciones",
-            para: "Ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor unde om"
+            heading: "Puntualidad",
+            para: "Cumplimos plazos de entrega con eficiencia y planificación cuidadosa."
         }
     ]
 ]
