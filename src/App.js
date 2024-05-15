@@ -1,12 +1,9 @@
 import React from 'react'
-import {BrowserRouter as Router, Switch, Route, BrowserRouter} from 'react-router-dom';
-// Import Page Layout 
-import Navbar from './component/Common/Navbar'
-import Footer from './component/Common/Footer'
-import CopyRight from './component/Common/CopyRight'
-// Import All Components 
-import Home_One from './page/index'
-// import Home_Two from './page/index2'
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+
+import MainLayout from './layout';
+
+import HomeOne from './page/index'
 import About from './page/About'
 import Service from './page/Service'
 import ServiceDetails from './page/ServiceDetails'
@@ -27,45 +24,34 @@ import Contact from './page/Contact'
 import PricingContent from './page/Pricing'
 import RequestQuote from './page/RequestQuote'
 
-// Import ScrollToTop Components 
-import ScrollToTop from './component/ScrollToTop'
-
 const App = () => {
     return (
-        <>
-            <BrowserRouter>
-                <Router>
-                    <ScrollToTop>
-                        <Navbar/>
-                        <Switch>
-                            <Route path='/' exact component={Home_One}/>
-                            {/* <Route path='/home_two' exact component={Home_Two}/> */}
-                            <Route path='/about' exact component={About}/>
-                            <Route path='/service' exact component={Service}/>
-                            <Route path='/service_details' exact component={ServiceDetails}/>
-                            <Route path='/blog_grid' exact component={BlogGrid}/>
-                            <Route path='/blog_with_sidebar' exact component={BlogWithSidebar}/>
-                            <Route path='/blog_details' exact component={BlogDetails}/>
-                            <Route path='/our_team' exact component={OurTeamArea}/>
-                            <Route path='/testimonials' exact component={Testimonials}/>
-                            <Route path='/gallery' exact component={Gallery}/>
-                            <Route path='/faqs' exact component={Faqs}/>
-                            <Route path='/track_ship' exact component={TrackYourShip}/>
-                            <Route path='/pricing' exact component={PricingContent}/>
-                            <Route path='/request_quote' exact component={RequestQuote}/>
-                            <Route path='/signup' exact component={SignUp}/>
-                            <Route path='/signIn' exact component={SignIn}/>
-                            <Route path='/privacyPolicy' exact component={PrivacyPolicy}/>
-                            <Route path='/terms' exact component={TermsCondition}/>
-                            <Route path='/contact' exact component={Contact}/>
-                            <Route exact component={Error}/>
-                        </Switch>
-                        <Footer/>
-                        <CopyRight/>
-                    </ScrollToTop>
-                </Router>
-            </BrowserRouter>
-        </>
+        <BrowserRouter>
+            <Routes>
+                <Route element={<MainLayout />}>
+                    <Route path='/' element={<HomeOne />}/>
+                    <Route path='/about' element={<About />}/>
+                    <Route path='/service' element={<Service />}/>
+                    <Route path='/service_details' element={<ServiceDetails />}/>
+                    <Route path='/blog_grid' element={<BlogGrid />}/>
+                    <Route path='/blog_with_sidebar' element={<BlogWithSidebar />}/>
+                    <Route path='/blog_details' element={<BlogDetails />}/>
+                    <Route path='/our_team' element={<OurTeamArea />}/>
+                    <Route path='/testimonials' element={<Testimonials />}/>
+                    <Route path='/gallery' element={<Gallery />}/>
+                    <Route path='/faqs' element={<Faqs />}/>
+                    <Route path='/track_ship' element={<TrackYourShip />}/>
+                    <Route path='/pricing' element={<PricingContent />}/>
+                    <Route path='/request_quote' element={<RequestQuote />}/>
+                    <Route path='/signup' element={<SignUp />}/>
+                    <Route path='/signIn' element={<SignIn />}/>
+                    <Route path='/privacyPolicy' element={<PrivacyPolicy />}/>
+                    <Route path='/terms' element={<TermsCondition />}/>
+                    <Route path='/contact' element={<Contact />}/>
+                    <Route path="*" element={<Error />} />
+                </Route>
+            </Routes>
+        </BrowserRouter>
     )
 }
 

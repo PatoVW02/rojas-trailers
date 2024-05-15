@@ -6,10 +6,6 @@ import img3 from '../../assets/img/gallery/gallery-3.jpg'
 import img4 from '../../assets/img/gallery/gallery-4.jpg'
 import img5 from '../../assets/img/gallery/gallery-5.jpg'
 import img6 from '../../assets/img/gallery/gallery-6.jpg'
-// Import ReactFancyBox
-import ReactFancyBox from 'react-fancybox'
-import 'react-fancybox/lib/fancybox.css'
-
 
 const GalleryData = [
     {
@@ -41,9 +37,7 @@ const GalleryImages = () => {
                         {GalleryData.map((data, index) => (
                             <div className="col-lg-4 col-md-6 col-sm-6 col-12" key={index}>
                                 <div className="single-gallery">
-                                    <ReactFancyBox
-                                        thumbnail={data.img}
-                                        image={data.img}/>
+                                    <img src={data.img} alt="gallery" />
                                 </div>
                             </div>
                         ))}

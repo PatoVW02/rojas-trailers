@@ -1,5 +1,6 @@
 import {useEffect} from "react"
-import {withRouter} from "react-router-dom"
+import { withRouter } from "react-router-dom"
+
 // ScrollToTop Area
 const ScrollToTop = props => {
     useEffect(() => {
